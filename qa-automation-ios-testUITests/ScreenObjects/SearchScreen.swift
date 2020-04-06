@@ -15,8 +15,23 @@ class SearchScreen {
     private let searchFieldPlaceholder = "Search exercises"
     lazy var searchField = application.searchFields[searchFieldPlaceholder]
     
+    lazy var cells = application.tables.cells
+    
     init(_ application: XCUIApplication) {
         self.application = application
+    }
+    
+    @discardableResult
+    func fillSearch(_ exercise: String) -> SearchScreen {
+        searchField
+            .set(accessibilityValue: searchFieldPlaceholder)
+            .fill(text: exercise)
+        
+        return self
+    }
+    
+    func getResult(_ exercise: String) -> XCUIElement {
+        return cells[exercise]
     }
     
 }

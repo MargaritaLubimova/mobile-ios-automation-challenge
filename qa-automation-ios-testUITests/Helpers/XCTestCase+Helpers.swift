@@ -18,4 +18,9 @@ extension XCTestCase {
         return "\(elementNamed) does not exist"
     }
     
+    func wait(expectation: XCDataProviderExpectation, timeout seconds: TimeInterval) {
+        expectation.start()
+        wait(for: [expectation], timeout: seconds)
+    }
+    
 }
