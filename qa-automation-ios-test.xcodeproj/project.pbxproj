@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB7A8FD9243BBC3600C72546 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A8FD8243BBC3600C72546 /* LoginScreen.swift */; };
+		AB7A8FDB243BBCA400C72546 /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A8FDA243BBCA400C72546 /* LoginTests.swift */; };
+		AB7A8FDE243BBCE300C72546 /* XCUIElement+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A8FDD243BBCE300C72546 /* XCUIElement+Extensions.swift */; };
+		AB7A8FE0243BBD0300C72546 /* XCTestCase+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A8FDF243BBD0300C72546 /* XCTestCase+Helpers.swift */; };
+		AB7A8FE2243BBDC600C72546 /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A8FE1243BBDC600C72546 /* SearchScreen.swift */; };
 		C34130B924091DBE001D01D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34130B824091DBE001D01D3 /* AppDelegate.swift */; };
 		C34130BB24091DBE001D01D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34130BA24091DBE001D01D3 /* SceneDelegate.swift */; };
 		C34130BD24091DBE001D01D3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34130BC24091DBE001D01D3 /* LoginViewController.swift */; };
@@ -14,7 +19,6 @@
 		C34130C224091DC0001D01D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34130C124091DC0001D01D3 /* Assets.xcassets */; };
 		C34130C524091DC0001D01D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34130C324091DC0001D01D3 /* LaunchScreen.storyboard */; };
 		C34130D024091DC0001D01D3 /* qa_automation_ios_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34130CF24091DC0001D01D3 /* qa_automation_ios_testTests.swift */; };
-		C34130DB24091DC0001D01D3 /* qa_automation_ios_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34130DA24091DC0001D01D3 /* qa_automation_ios_testUITests.swift */; };
 		C34130EC240923C1001D01D3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34130EB240923C1001D01D3 /* ListViewController.swift */; };
 		C34130EE24092552001D01D3 /* Excercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34130ED24092552001D01D3 /* Excercise.swift */; };
 /* End PBXBuildFile section */
@@ -37,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB7A8FD8243BBC3600C72546 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		AB7A8FDA243BBCA400C72546 /* LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
+		AB7A8FDD243BBCE300C72546 /* XCUIElement+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCUIElement+Extensions.swift"; sourceTree = "<group>"; };
+		AB7A8FDF243BBD0300C72546 /* XCTestCase+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Helpers.swift"; sourceTree = "<group>"; };
+		AB7A8FE1243BBDC600C72546 /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
 		C34130B524091DBE001D01D3 /* qa-automation-ios-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "qa-automation-ios-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34130B824091DBE001D01D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C34130BA24091DBE001D01D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,7 +58,6 @@
 		C34130CF24091DC0001D01D3 /* qa_automation_ios_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qa_automation_ios_testTests.swift; sourceTree = "<group>"; };
 		C34130D124091DC0001D01D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C34130D624091DC0001D01D3 /* qa-automation-ios-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "qa-automation-ios-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C34130DA24091DC0001D01D3 /* qa_automation_ios_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qa_automation_ios_testUITests.swift; sourceTree = "<group>"; };
 		C34130DC24091DC0001D01D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C34130EB240923C1001D01D3 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		C34130ED24092552001D01D3 /* Excercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excercise.swift; sourceTree = "<group>"; };
@@ -80,6 +88,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB7A8FD6243BBBCB00C72546 /* ScreenObjects */ = {
+			isa = PBXGroup;
+			children = (
+				AB7A8FD8243BBC3600C72546 /* LoginScreen.swift */,
+				AB7A8FE1243BBDC600C72546 /* SearchScreen.swift */,
+			);
+			path = ScreenObjects;
+			sourceTree = "<group>";
+		};
+		AB7A8FD7243BBBDB00C72546 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AB7A8FDA243BBCA400C72546 /* LoginTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		AB7A8FDC243BBCC600C72546 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AB7A8FDD243BBCE300C72546 /* XCUIElement+Extensions.swift */,
+				AB7A8FDF243BBD0300C72546 /* XCTestCase+Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		C34130AC24091DBE001D01D3 = {
 			isa = PBXGroup;
 			children = (
@@ -126,7 +160,9 @@
 		C34130D924091DC0001D01D3 /* qa-automation-ios-testUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C34130DA24091DC0001D01D3 /* qa_automation_ios_testUITests.swift */,
+				AB7A8FDC243BBCC600C72546 /* Helpers */,
+				AB7A8FD7243BBBDB00C72546 /* Tests */,
+				AB7A8FD6243BBBCB00C72546 /* ScreenObjects */,
 				C34130DC24091DC0001D01D3 /* Info.plist */,
 			);
 			path = "qa-automation-ios-testUITests";
@@ -233,6 +269,7 @@
 					};
 					C34130D524091DC0001D01D3 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1140;
 						TestTargetID = C34130B424091DBE001D01D3;
 					};
 				};
@@ -309,7 +346,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C34130DB24091DC0001D01D3 /* qa_automation_ios_testUITests.swift in Sources */,
+				AB7A8FE0243BBD0300C72546 /* XCTestCase+Helpers.swift in Sources */,
+				AB7A8FE2243BBDC600C72546 /* SearchScreen.swift in Sources */,
+				AB7A8FDE243BBCE300C72546 /* XCUIElement+Extensions.swift in Sources */,
+				AB7A8FD9243BBC3600C72546 /* LoginScreen.swift in Sources */,
+				AB7A8FDB243BBCA400C72546 /* LoginTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,6 +587,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7JN4A5JWKN;
 				INFOPLIST_FILE = "qa-automation-ios-testUITests/Info.plist";
@@ -556,6 +598,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gymondo.qa-automation-ios-testUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "qa-automation-ios-test";
@@ -566,6 +609,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7JN4A5JWKN;
 				INFOPLIST_FILE = "qa-automation-ios-testUITests/Info.plist";
