@@ -64,6 +64,7 @@ class ListViewController: UITableViewController {
             let response = response as? HTTPURLResponse,
             response.statusCode == 200 {
             if let list = try? JSONDecoder().decode(ExcerciseList.self, from: data) {
+              UITestsDataProvider.writeExcerciseList(data)
               self?.exercises = list.results
             }
             
