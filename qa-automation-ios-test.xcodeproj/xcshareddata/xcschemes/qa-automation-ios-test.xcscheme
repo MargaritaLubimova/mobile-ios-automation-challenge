@@ -32,16 +32,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C34130CA24091DC0001D01D3"
-               BuildableName = "qa-automation-ios-testTests.xctest"
-               BlueprintName = "qa-automation-ios-testTests"
-               ReferencedContainer = "container:qa-automation-ios-test.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "C34130D524091DC0001D01D3"
                BuildableName = "qa-automation-ios-testUITests.xctest"
                BlueprintName = "qa-automation-ios-testUITests"

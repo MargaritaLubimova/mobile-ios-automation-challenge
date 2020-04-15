@@ -1,0 +1,16 @@
+{
+  "name": "bitrise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bitrise.js",
+  "dependencies": {
+    "request": "^2.88.2",
+    "set-interval-async": "1.0.32"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
