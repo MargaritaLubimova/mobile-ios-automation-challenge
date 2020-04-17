@@ -23,19 +23,11 @@
 		C34130C024091DBE001D01D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34130BE24091DBE001D01D3 /* Main.storyboard */; };
 		C34130C224091DC0001D01D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34130C124091DC0001D01D3 /* Assets.xcassets */; };
 		C34130C524091DC0001D01D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34130C324091DC0001D01D3 /* LaunchScreen.storyboard */; };
-		C34130D024091DC0001D01D3 /* qa_automation_ios_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34130CF24091DC0001D01D3 /* qa_automation_ios_testTests.swift */; };
 		C34130EC240923C1001D01D3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34130EB240923C1001D01D3 /* ListViewController.swift */; };
 		C34130EE24092552001D01D3 /* Excercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34130ED24092552001D01D3 /* Excercise.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C34130CC24091DC0001D01D3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C34130AD24091DBE001D01D3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C34130B424091DBE001D01D3;
-			remoteInfo = "qa-automation-ios-test";
-		};
 		C34130D724091DC0001D01D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C34130AD24091DBE001D01D3 /* Project object */;
@@ -62,9 +54,6 @@
 		C34130C124091DC0001D01D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C34130C424091DC0001D01D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C34130C624091DC0001D01D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C34130CB24091DC0001D01D3 /* qa-automation-ios-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "qa-automation-ios-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C34130CF24091DC0001D01D3 /* qa_automation_ios_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qa_automation_ios_testTests.swift; sourceTree = "<group>"; };
-		C34130D124091DC0001D01D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C34130D624091DC0001D01D3 /* qa-automation-ios-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "qa-automation-ios-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34130DC24091DC0001D01D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C34130EB240923C1001D01D3 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
@@ -73,13 +62,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		C34130B224091DBE001D01D3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C34130C824091DC0001D01D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -129,7 +111,6 @@
 			children = (
 				C34130B724091DBE001D01D3 /* qa-automation-ios-test */,
 				C34130C124091DC0001D01D3 /* Assets.xcassets */,
-				C34130CE24091DC0001D01D3 /* qa-automation-ios-testTests */,
 				C34130D924091DC0001D01D3 /* qa-automation-ios-testUITests */,
 				C34130B624091DBE001D01D3 /* Products */,
 			);
@@ -139,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				C34130B524091DBE001D01D3 /* qa-automation-ios-test.app */,
-				C34130CB24091DC0001D01D3 /* qa-automation-ios-testTests.xctest */,
 				C34130D624091DC0001D01D3 /* qa-automation-ios-testUITests.xctest */,
 			);
 			name = Products;
@@ -157,15 +137,6 @@
 				C34130E92409211A001D01D3 /* View Models */,
 			);
 			path = "qa-automation-ios-test";
-			sourceTree = "<group>";
-		};
-		C34130CE24091DC0001D01D3 /* qa-automation-ios-testTests */ = {
-			isa = PBXGroup;
-			children = (
-				C34130CF24091DC0001D01D3 /* qa_automation_ios_testTests.swift */,
-				C34130D124091DC0001D01D3 /* Info.plist */,
-			);
-			path = "qa-automation-ios-testTests";
 			sourceTree = "<group>";
 		};
 		C34130D924091DC0001D01D3 /* qa-automation-ios-testUITests */ = {
@@ -225,24 +196,6 @@
 			productReference = C34130B524091DBE001D01D3 /* qa-automation-ios-test.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C34130CA24091DC0001D01D3 /* qa-automation-ios-testTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C34130E224091DC0001D01D3 /* Build configuration list for PBXNativeTarget "qa-automation-ios-testTests" */;
-			buildPhases = (
-				C34130C724091DC0001D01D3 /* Sources */,
-				C34130C824091DC0001D01D3 /* Frameworks */,
-				C34130C924091DC0001D01D3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C34130CD24091DC0001D01D3 /* PBXTargetDependency */,
-			);
-			name = "qa-automation-ios-testTests";
-			productName = "qa-automation-ios-testTests";
-			productReference = C34130CB24091DC0001D01D3 /* qa-automation-ios-testTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		C34130D524091DC0001D01D3 /* qa-automation-ios-testUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C34130E524091DC0001D01D3 /* Build configuration list for PBXNativeTarget "qa-automation-ios-testUITests" */;
@@ -274,10 +227,6 @@
 					C34130B424091DBE001D01D3 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
-					C34130CA24091DC0001D01D3 = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = C34130B424091DBE001D01D3;
-					};
 					C34130D524091DC0001D01D3 = {
 						CreatedOnToolsVersion = 11.3.1;
 						LastSwiftMigration = 1140;
@@ -299,7 +248,6 @@
 			projectRoot = "";
 			targets = (
 				C34130B424091DBE001D01D3 /* qa-automation-ios-test */,
-				C34130CA24091DC0001D01D3 /* qa-automation-ios-testTests */,
 				C34130D524091DC0001D01D3 /* qa-automation-ios-testUITests */,
 			);
 		};
@@ -313,13 +261,6 @@
 				C34130C524091DC0001D01D3 /* LaunchScreen.storyboard in Resources */,
 				C34130C224091DC0001D01D3 /* Assets.xcassets in Resources */,
 				C34130C024091DBE001D01D3 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C34130C924091DC0001D01D3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,14 +287,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C34130C724091DC0001D01D3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C34130D024091DC0001D01D3 /* qa_automation_ios_testTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C34130D224091DC0001D01D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -373,11 +306,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C34130CD24091DC0001D01D3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C34130B424091DBE001D01D3 /* qa-automation-ios-test */;
-			targetProxy = C34130CC24091DC0001D01D3 /* PBXContainerItemProxy */;
-		};
 		C34130D824091DC0001D01D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C34130B424091DBE001D01D3 /* qa-automation-ios-test */;
@@ -480,28 +408,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Test;
-		};
-		AB7A8FED243BC36A00C72546 /* Test */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7JN4A5JWKN;
-				INFOPLIST_FILE = "qa-automation-ios-testTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gymondo.qa-automation-ios-testTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qa-automation-ios-test.app/qa-automation-ios-test";
 			};
 			name = Test;
 		};
@@ -677,50 +583,6 @@
 			};
 			name = Release;
 		};
-		C34130E324091DC0001D01D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7JN4A5JWKN;
-				INFOPLIST_FILE = "qa-automation-ios-testTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gymondo.qa-automation-ios-testTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qa-automation-ios-test.app/qa-automation-ios-test";
-			};
-			name = Debug;
-		};
-		C34130E424091DC0001D01D3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7JN4A5JWKN;
-				INFOPLIST_FILE = "qa-automation-ios-testTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gymondo.qa-automation-ios-testTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qa-automation-ios-test.app/qa-automation-ios-test";
-			};
-			name = Release;
-		};
 		C34130E624091DC0001D01D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -783,16 +645,6 @@
 				C34130E024091DC0001D01D3 /* Debug */,
 				AB7A8FEC243BC36A00C72546 /* Test */,
 				C34130E124091DC0001D01D3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C34130E224091DC0001D01D3 /* Build configuration list for PBXNativeTarget "qa-automation-ios-testTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C34130E324091DC0001D01D3 /* Debug */,
-				AB7A8FED243BC36A00C72546 /* Test */,
-				C34130E424091DC0001D01D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
