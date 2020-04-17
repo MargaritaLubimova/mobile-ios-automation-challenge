@@ -41,3 +41,7 @@ All artefacts are stored on cloud storage, so you can see historical report acro
 <p align = "center">
     <img src = "./source/ci-0003.png" width="75%" height="75%">
 </p>
+
+### How to run locally
+
+Run using Xcode

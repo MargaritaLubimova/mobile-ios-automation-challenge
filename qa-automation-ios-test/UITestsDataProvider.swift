@@ -22,10 +22,8 @@ final class UITestsDataProvider {
         
         let secrets = generateSecretsURL(for: shared)
         
-        do {
-            try? fm.createDirectory(at: secrets, withIntermediateDirectories: true, attributes: nil)
-            try? value.write(to: generateFileURL(for: secrets))
-        }
+        try? fm.createDirectory(at: secrets, withIntermediateDirectories: true, attributes: nil)
+        try? value.write(to: generateFileURL(for: secrets))
         
         #endif
     }
